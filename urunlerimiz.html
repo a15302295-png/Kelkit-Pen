@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizardm7 - Ürünlerimiz</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #0a0a0a;
+            color: #ffffff;
+        }
+        header {
+            background: linear-gradient(90deg, #000428, #004e92);
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.8em;
+            margin: 0;
+        }
+        header p {
+            font-size: 1.1em;
+            margin-top: 10px;
+            color: #c0c0c0;
+        }
+        nav {
+            background-color: #001f3f;
+            display: flex;
+            justify-content: center;
+        }
+        nav a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 15px 25px;
+            display: block;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background-color: #004e92;
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 40px;
+            color: #00c6ff;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+        .product-card {
+            background-color: #111;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,78,146,0.5);
+            transition: transform 0.3s;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product-card h3 {
+            margin: 15px 0 10px 0;
+            color: #00c6ff;
+        }
+        .product-card p {
+            color: #c0c0c0;
+        }
+        footer {
+            background-color: #001f3f;
+            padding: 20px;
+            text-align: center;
+            color: #c0c0c0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Kelkit Pen  - Ürünlerimiz</h1>
+    <p>Pencere, Duşakabin, Sistem ve Daha Fazlası</p>
+</header>
+
+<nav>
+    <a href="index.html">Ana Sayfa</a>
+    <a href="#pencereler">Pencereler</a>
+    <a href="#dusakabin">Duşakabin</a>
+    <a href="#sistemler">Sistemler</a>
+    <a href="index.html#iletisim">İletişim</a>
+</nav>
+
+<section class="products" id="pencereler">
+    <h2>Pencereler</h2>
+    <div class="product-card">
+        <h3>Cam Pencere 1</h3>
+        <img src="pencere1.png" alt="Pencere 1">
+        <p>Kaliteli ve dayanıklı pencere</p>
+    </div>
+    <div class="product-card">
+        <h3>Cam Pencere 2</h3>
+        <img src="pencere2.png" alt="Pencere 2">
+        <p>Modern tasarım, uygun fiyat</p>
+    </div>
+</section>
+
+<section class="products" id="dusakabin">
+    <h2>Duşakabin</h2>
+    <div class="product-card">
+        <h3>Duşakabin 1</h3>
+        <img src="dusakabin1.png" alt="Duşakabin 1">
+        <p>Şık ve dayanıklı duşakabin</p>
+    </div>
+    <div class="product-card">
+        <h3>Duşakabin 2</h3>
+        <img src="dusakabin2.png" alt="Duşakabin 2">
+        <p>Kolay montaj ve kullanım</p>
+    </div>
+</section>
+
+<section class="products" id="sistemler">
+    <h2>Sistemler</h2>
+    <div class="product-card">
+        <h3>Sürme Sistem 1</h3>
+        <img src="sistem1.png" alt="Sistem 1">
+        <p>Dayanıklı ve güvenli sistemler</p>
+    </div>
+    <div class="product-card">
+        <h3>Sürme Sistem 2</h3>
+        <img src="sistem2.png" alt="Sistem 2">
+        <p>Kolay kullanım ve şık tasarım</p>
+    </div>
+</section>
+
+<footer>
+    <p>İletişim: +90 555 555 55 55 | adres@ornek.com</p>
+    <p>Wizardm7 © 2026</p>
+</footer>
+
+</body>
+</html>
