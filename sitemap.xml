@@ -1,18 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="https://a15302295-png.github.io/Kelkit-Pen/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Ana sayfa -->
   <url>
-    <loc>https://kendi-kullanici-adi.github.io/</loc>
+    <loc>https:https://a15302295-png.github.io/Kelkit-Pen/</loc>
     <lastmod>2026-02-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Hakkımda sayfası -->
   <url>
-    <loc>https://kendi-kullanici-adi.github.io/hakkimda</loc>
+    <loc>https://https:a15302295-png.github.io/Kelkit-Pen/hakkimda</loc>
     <lastmod>2026-02-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <!-- İstersen diğer sayfaları da ekle -->
+
+  <!-- İletişim sayfası -->
+  <url>
+    <loc>https://https:a15302295-png.github.io/Kelkit-Pen/iletisim</loc>
+    <lastmod>2026-02-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
-
-
